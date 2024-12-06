@@ -8,6 +8,7 @@ import Mainlayout from "../pages/Main-Layout/Mainlayout";
 
 import Card from "../pages/Card/Card";
 import Home from "../pages/Home/Home";
+import Multicard from "../pages/Card/Multicard/Multicard";
 
 
 
@@ -35,7 +36,11 @@ const mycreatedRoute = createBrowserRouter([
         {
             path : '/details',
             element:<Carddetails/>
-        }
+        },
+        {
+            path :'/multicard',
+            element:<Multicard/>
+         }
     ]
    }
 ]);

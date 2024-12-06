@@ -5,8 +5,9 @@ import About from "../pages/About/About";
 import Blogsection from "../pages/Blog/Blogsection";
 import Carddetails from "../pages/Card/Carddetails/Carddetails";
 import Mainlayout from "../pages/Main-Layout/Mainlayout";
-import Herosection from "../pages/Hero/Herosection";
+
 import Card from "../pages/Card/Card";
+import Home from "../pages/Home/Home";
 
 
 
@@ -17,7 +18,7 @@ const mycreatedRoute = createBrowserRouter([
     children :[
         {
             path : '/',
-            element: <Herosection/>
+            element: <Home/>
         },
         {
             path : '/about',

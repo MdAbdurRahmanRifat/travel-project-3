@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Blogimgone from "../../../src/assets/blogimage1.jpg";
 import Blogimgtwo from "../../../src/assets/blogimage2.jpg";
 import Blogimgthree from "../../../src/assets/blogimage3.jpg";
@@ -37,9 +38,11 @@ const Blogsection = () => {
       <div className="">
         <div className="flex justify-between items-center mb-10">
           <h2 className="text-3xl    font-semibold text-white">Our Blog</h2>
+          <Link to="/blogdetail">
           <button className="text-orange-500 border border-orange-500 px-2 sm:px-4 py-2 rounded-lg hover:bg-orange-100">
             View All
           </button>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

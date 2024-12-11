@@ -7,9 +7,10 @@ const Home = () => {
   return (
     <>
       <Herosection />
+      <Card />
       <About />
       <Blogsection />
-      <Card />
+     
     </>
   )
 }

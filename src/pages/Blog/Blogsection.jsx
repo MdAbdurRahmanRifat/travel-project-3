@@ -34,7 +34,13 @@ const Blogsection = () => {
   ];
   return (
     <>
-    <section className="backdrop-blur-xl bg-[#ffffff0e] backdrop-sepia-0 w-[90%] lg:w-[80%] md:w-[80%] mx-auto p-10  shadow-2xl mt-20 lg:mt-20 py-12">
+        <div className="">
+          <h3 className="text-3xl md:text-6xl text-white font-bold mt-10 text-center">
+            Read  <span className="text-orange-500">our blogs</span>
+          </h3>
+        </div>
+    <section className="backdrop-blur-xl bg-[#ffffff0e] backdrop-sepia-0 w-[90%] lg:w-[80%] md:w-[80%] mx-auto p-10  shadow-2xl mt-10 lg:mt-20 py-12">
+
       <div className="">
         <div className="flex justify-between items-center mb-10">
           <h2 className="text-3xl    font-semibold text-white">Our Blog</h2>

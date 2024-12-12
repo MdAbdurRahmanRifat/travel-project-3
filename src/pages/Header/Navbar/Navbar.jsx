@@ -29,6 +29,12 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
+                to="/our work"
+                className="text-white hover:text-gray-300 transition"
+              >
+                Our Work
+              </Link>
+              <Link
                 to="/about"
                 className="text-white hover:text-gray-300 transition"
               >
@@ -39,12 +45,6 @@ const Navbar = () => {
                 className="text-white hover:text-gray-300 transition"
               >
                 Blog
-              </Link>
-              <Link
-                to="/our work"
-                className="text-white hover:text-gray-300 transition"
-              >
-                Our Work
               </Link>
             </div>
 

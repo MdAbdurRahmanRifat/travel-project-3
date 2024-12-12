@@ -2,6 +2,11 @@ import swizerland from "../../../src/assets/aboutsection.jpg";
 const About = () => {
   return (
     <>
+        <div className="">
+          <h3 className="text-3xl md:text-6xl text-white font-bold mt-10 text-center">
+            know more  <span className="text-orange-500">about us</span>
+          </h3>
+        </div>
       <section className="backdrop-blur-xl bg-[#ffffff0e] backdrop-sepia-0 w-[90%] lg:w-[80%] md:w-[80%] mx-auto  shadow-2xl mt-20 py-12">
         <div className="container mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center gap-8">
           {/* Left Side: Image */}
